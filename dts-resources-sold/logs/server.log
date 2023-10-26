@@ -1,0 +1,293 @@
+[INFO ]:2023-09-06 13:42:36 [background-preinit] Version:21 - HV000001: Hibernate Validator 6.2.5.Final
+[INFO ]:2023-09-06 13:42:36 [main] DtsResourcesSoldApplication:55 - Starting DtsResourcesSoldApplication using Java 1.8.0_371 on suzhouAi672 with PID 14160 (E:\development\ideaworkspace\dts-resources-sold\target\classes started by user_Qc3OMkB2d in E:\development\ideaworkspace\dts-resources-sold)
+[INFO ]:2023-09-06 13:42:36 [main] DtsResourcesSoldApplication:631 - No active profile set, falling back to 1 default profile: "default"
+[WARN ]:2023-09-06 13:42:37 [main] ClassPathRetrofitClientScanner:42 - No RetrofitClient was found in '[com.chinamobile.cmss.dts.dtsresourcessold]' package. Please check your configuration.
+[INFO ]:2023-09-06 13:42:37 [main] RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO ]:2023-09-06 13:42:37 [main] RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+[INFO ]:2023-09-06 13:42:38 [main] RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 92 ms. Found 1 JPA repository interfaces.
+[INFO ]:2023-09-06 13:42:38 [main] RepositoryConfigurationDelegate:262 - Multiple Spring Data modules found, entering strict repository configuration mode
+[INFO ]:2023-09-06 13:42:38 [main] RepositoryConfigurationDelegate:132 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+[INFO ]:2023-09-06 13:42:38 [main] RepositoryConfigurationExtensionSupport:349 - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.chinamobile.cmss.dts.dtsresourcessold.dao.SizeConfigDao; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+[INFO ]:2023-09-06 13:42:38 [main] RepositoryConfigurationDelegate:201 - Finished Spring Data repository scanning in 15 ms. Found 0 Redis repository interfaces.
+[INFO ]:2023-09-06 13:42:38 [main] EnableEncryptablePropertiesBeanFactoryPostProcessor:39 - Post-processing PropertySource instances
+[INFO ]:2023-09-06 13:42:38 [main] EncryptablePropertySourceConverter:56 - Converting PropertySource configurationProperties [org.springframework.boot.context.properties.source.ConfigurationPropertySourcesPropertySource] to AOP Proxy
+[INFO ]:2023-09-06 13:42:38 [main] EncryptablePropertySourceConverter:56 - Converting PropertySource servletConfigInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ]:2023-09-06 13:42:38 [main] EncryptablePropertySourceConverter:56 - Converting PropertySource servletContextInitParams [org.springframework.core.env.PropertySource$StubPropertySource] to EncryptablePropertySourceWrapper
+[INFO ]:2023-09-06 13:42:38 [main] EncryptablePropertySourceConverter:56 - Converting PropertySource systemProperties [org.springframework.core.env.PropertiesPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ]:2023-09-06 13:42:38 [main] EncryptablePropertySourceConverter:56 - Converting PropertySource systemEnvironment [org.springframework.boot.env.SystemEnvironmentPropertySourceEnvironmentPostProcessor$OriginAwareSystemEnvironmentPropertySource] to EncryptableSystemEnvironmentPropertySourceWrapper
+[INFO ]:2023-09-06 13:42:38 [main] EncryptablePropertySourceConverter:56 - Converting PropertySource random [org.springframework.boot.env.RandomValuePropertySource] to EncryptablePropertySourceWrapper
+[INFO ]:2023-09-06 13:42:38 [main] EncryptablePropertySourceConverter:56 - Converting PropertySource Config resource 'class path resource [application.yml]' via location 'optional:classpath:/' [org.springframework.boot.env.OriginTrackedMapPropertySource] to EncryptableMapPropertySourceWrapper
+[INFO ]:2023-09-06 13:42:38 [main] DefaultLazyPropertyFilter:31 - Property Filter custom Bean not found with name 'encryptablePropertyFilter'. Initializing Default Property Filter
+[INFO ]:2023-09-06 13:42:39 [main] TomcatWebServer:108 - Tomcat initialized with port(s): 8000 (http)
+[INFO ]:2023-09-06 13:42:39 [main] Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8000"]
+[INFO ]:2023-09-06 13:42:39 [main] StandardService:173 - Starting service [Tomcat]
+[INFO ]:2023-09-06 13:42:39 [main] StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.75]
+[INFO ]:2023-09-06 13:42:40 [main] [/]:173 - Initializing Spring embedded WebApplicationContext
+[INFO ]:2023-09-06 13:42:40 [main] ServletWebServerApplicationContext:292 - Root WebApplicationContext: initialization completed in 3627 ms
+[INFO ]:2023-09-06 13:42:40 [main] DefaultLazyPropertyResolver:35 - Property Resolver custom Bean not found with name 'encryptablePropertyResolver'. Initializing Default Property Resolver
+[INFO ]:2023-09-06 13:42:40 [main] DefaultLazyPropertyDetector:35 - Property Detector custom Bean not found with name 'encryptablePropertyDetector'. Initializing Default Property Detector
+[INFO ]:2023-09-06 13:42:40 [main] LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+[INFO ]:2023-09-06 13:42:40 [main] Version:44 - HHH000412: Hibernate ORM core version 5.6.15.Final
+[INFO ]:2023-09-06 13:42:40 [main] Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+[INFO ]:2023-09-06 13:42:41 [main] HikariDataSource:110 - HikariPool-1 - Starting...
+[INFO ]:2023-09-06 13:42:41 [main] HikariDataSource:123 - HikariPool-1 - Start completed.
+[INFO ]:2023-09-06 13:42:41 [main] Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+[INFO ]:2023-09-06 13:42:42 [main] JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[INFO ]:2023-09-06 13:42:42 [main] LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+[WARN ]:2023-09-06 13:42:43 [main] JpaBaseConfiguration$JpaWebConfiguration:223 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+[INFO ]:2023-09-06 13:42:45 [main] ConsumerConfig:376 - ConsumerConfig values: 
+	allow.auto.create.topics = true
+	auto.commit.interval.ms = 5000
+	auto.offset.reset = latest
+	bootstrap.servers = [10.253.198.65:9092]
+	check.crcs = true
+	client.dns.lookup = use_all_dns_ips
+	client.id = consumer-outer-dts-1
+	client.rack = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = false
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = outer-dts
+	group.instance.id = null
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	internal.throw.on.fetch.stable.offset.unsupported = false
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor, class org.apache.kafka.clients.consumer.CooperativeStickyAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = SCRAM-SHA-512
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = SASL_PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	session.timeout.ms = 45000
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+[INFO ]:2023-09-06 13:42:45 [main] AbstractLogin:61 - Successfully logged in.
+[INFO ]:2023-09-06 13:42:45 [main] AppInfoParser:119 - Kafka version: 3.1.2
+[INFO ]:2023-09-06 13:42:45 [main] AppInfoParser:120 - Kafka commitId: f8c67dc3ae0a3265
+[INFO ]:2023-09-06 13:42:45 [main] AppInfoParser:121 - Kafka startTimeMs: 1693978965277
+[INFO ]:2023-09-06 13:42:45 [main] KafkaConsumer:966 - [Consumer clientId=consumer-outer-dts-1, groupId=outer-dts] Subscribed to topic(s): outer-dts
+[INFO ]:2023-09-06 13:42:45 [main] Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8000"]
+[INFO ]:2023-09-06 13:42:45 [main] TomcatWebServer:220 - Tomcat started on port(s): 8000 (http) with context path ''
+[INFO ]:2023-09-06 13:42:45 [main] DtsResourcesSoldApplication:61 - Started DtsResourcesSoldApplication in 9.814 seconds (JVM running for 11.933)
+[WARN ]:2023-09-06 13:42:45 [scheduling-1] Config:560 - Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[INFO ]:2023-09-06 13:42:46 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Metadata:287 - [Consumer clientId=consumer-outer-dts-1, groupId=outer-dts] Cluster ID: iMJArXvcSaGfz178J-G5wg
+[INFO ]:2023-09-06 13:42:46 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ConsumerCoordinator:853 - [Consumer clientId=consumer-outer-dts-1, groupId=outer-dts] Discovered group coordinator 10.253.198.65:9092 (id: 2147483646 rack: null)
+[INFO ]:2023-09-06 13:42:46 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ConsumerCoordinator:535 - [Consumer clientId=consumer-outer-dts-1, groupId=outer-dts] (Re-)joining group
+[WARN ]:2023-09-06 13:42:47 [scheduling-1] Config:560 - Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[WARN ]:2023-09-06 13:42:48 [scheduling-1] Config:560 - Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[WARN ]:2023-09-06 13:42:48 [scheduling-1] Config:560 - Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[WARN ]:2023-09-06 13:42:49 [scheduling-1] Config:560 - Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[INFO ]:2023-09-06 13:42:49 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ConsumerCoordinator:595 - [Consumer clientId=consumer-outer-dts-1, groupId=outer-dts] Successfully joined group with generation Generation{generationId=72, memberId='consumer-outer-dts-1-aff24308-530a-4d36-aa45-6756a134360a', protocol='range'}
+[INFO ]:2023-09-06 13:42:49 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ConsumerCoordinator:659 - [Consumer clientId=consumer-outer-dts-1, groupId=outer-dts] Finished assignment for group at generation 72: {consumer-outer-dts-1-aff24308-530a-4d36-aa45-6756a134360a=Assignment(partitions=[outer-dts-0])}
+[INFO ]:2023-09-06 13:42:49 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ConsumerCoordinator:761 - [Consumer clientId=consumer-outer-dts-1, groupId=outer-dts] Successfully synced group in generation Generation{generationId=72, memberId='consumer-outer-dts-1-aff24308-530a-4d36-aa45-6756a134360a', protocol='range'}
+[INFO ]:2023-09-06 13:42:49 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ConsumerCoordinator:280 - [Consumer clientId=consumer-outer-dts-1, groupId=outer-dts] Notifying assignor about the new Assignment(partitions=[outer-dts-0])
+[INFO ]:2023-09-06 13:42:49 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ConsumerCoordinator:292 - [Consumer clientId=consumer-outer-dts-1, groupId=outer-dts] Adding newly assigned partitions: outer-dts-0
+[INFO ]:2023-09-06 13:42:49 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ConsumerCoordinator:851 - [Consumer clientId=consumer-outer-dts-1, groupId=outer-dts] Setting offset for partition outer-dts-0 to the committed offset FetchPosition{offset=1047, offsetEpoch=Optional.empty, currentLeader=LeaderAndEpoch{leader=Optional[10.253.198.65:9092 (id: 1 rack: null)], epoch=absent}}
+[INFO ]:2023-09-06 13:42:49 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] KafkaMessageListenerContainer:292 - outer-dts: partitions assigned: [outer-dts-0]
+[WARN ]:2023-09-06 13:42:49 [scheduling-1] Config:560 - Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[WARN ]:2023-09-06 13:42:50 [scheduling-1] Config:560 - Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[WARN ]:2023-09-06 13:42:50 [scheduling-1] Config:560 - Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[WARN ]:2023-09-06 13:42:51 [scheduling-1] Config:560 - Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[WARN ]:2023-09-06 13:42:51 [scheduling-1] Config:560 - Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[WARN ]:2023-09-06 13:42:52 [scheduling-1] Config:560 - Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[WARN ]:2023-09-06 13:42:52 [scheduling-1] Config:560 - Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[WARN ]:2023-09-06 13:42:53 [scheduling-1] Config:560 - Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[WARN ]:2023-09-06 13:42:53 [scheduling-1] Config:560 - Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[WARN ]:2023-09-06 13:42:54 [scheduling-1] Config:560 - Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[WARN ]:2023-09-06 13:42:54 [scheduling-1] Config:560 - Error reading service account token from: [/var/run/secrets/kubernetes.io/serviceaccount/token]. Ignoring.
+[INFO ]:2023-09-06 13:42:55 [scheduling-1] ProducerConfig:376 - ProducerConfig values: 
+	acks = -1
+	batch.size = 16384
+	bootstrap.servers = [10.253.198.65:9092]
+	buffer.memory = 33554432
+	client.dns.lookup = use_all_dns_ips
+	client.id = producer-1
+	compression.type = none
+	connections.max.idle.ms = 540000
+	delivery.timeout.ms = 120000
+	enable.idempotence = true
+	interceptor.classes = []
+	key.serializer = class org.apache.kafka.common.serialization.StringSerializer
+	linger.ms = 0
+	max.block.ms = 60000
+	max.in.flight.requests.per.connection = 5
+	max.request.size = 1048576
+	metadata.max.age.ms = 300000
+	metadata.max.idle.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partitioner.class = class org.apache.kafka.clients.producer.internals.DefaultPartitioner
+	receive.buffer.bytes = 32768
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retries = 2147483647
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = [hidden]
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.connect.timeout.ms = null
+	sasl.login.read.timeout.ms = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.login.retry.backoff.max.ms = 10000
+	sasl.login.retry.backoff.ms = 100
+	sasl.mechanism = SCRAM-SHA-512
+	sasl.oauthbearer.clock.skew.seconds = 30
+	sasl.oauthbearer.expected.audience = null
+	sasl.oauthbearer.expected.issuer = null
+	sasl.oauthbearer.jwks.endpoint.refresh.ms = 3600000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.max.ms = 10000
+	sasl.oauthbearer.jwks.endpoint.retry.backoff.ms = 100
+	sasl.oauthbearer.jwks.endpoint.url = null
+	sasl.oauthbearer.scope.claim.name = scope
+	sasl.oauthbearer.sub.claim.name = sub
+	sasl.oauthbearer.token.endpoint.url = null
+	security.protocol = SASL_PLAINTEXT
+	security.providers = null
+	send.buffer.bytes = 131072
+	socket.connection.setup.timeout.max.ms = 30000
+	socket.connection.setup.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2]
+	ssl.endpoint.identification.algorithm = https
+	ssl.engine.factory.class = null
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.certificate.chain = null
+	ssl.keystore.key = null
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLSv1.2
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.certificates = null
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	transaction.timeout.ms = 60000
+	transactional.id = null
+	value.serializer = class org.apache.kafka.common.serialization.StringSerializer
+
+[INFO ]:2023-09-06 13:42:55 [scheduling-1] KafkaProducer:572 - [Producer clientId=producer-1] Instantiated an idempotent producer.
+[INFO ]:2023-09-06 13:42:55 [scheduling-1] AppInfoParser:119 - Kafka version: 3.1.2
+[INFO ]:2023-09-06 13:42:55 [scheduling-1] AppInfoParser:120 - Kafka commitId: f8c67dc3ae0a3265
+[INFO ]:2023-09-06 13:42:55 [scheduling-1] AppInfoParser:121 - Kafka startTimeMs: 1693978975168
+[INFO ]:2023-09-06 13:42:55 [kafka-producer-network-thread | producer-1] Metadata:287 - [Producer clientId=producer-1] Cluster ID: iMJArXvcSaGfz178J-G5wg
+[INFO ]:2023-09-06 13:42:55 [kafka-producer-network-thread | producer-1] TransactionManager:554 - [Producer clientId=producer-1] ProducerId set to 23146 with epoch 0
+[INFO ]:2023-09-06 13:42:55 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] KafkaConsumerServiceImpl:13 - topic: outer-dts, {"az":"可用区一","create_time":"2023-09-06 13:42:47","flavor":"小规格单向传输","flavor_code":"2207201438096801","group_type":2,"product":"dts","product_code":"3d93dd88cee3337366a1e004760285c4","region":"华东-苏州","region_code":"CIDC-RP-25","unit":"个","value":{"sold_available":613}}
+[INFO ]:2023-09-06 13:42:55 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] KafkaConsumerServiceImpl:13 - topic: outer-dts, {"az":"可用区一","create_time":"2023-09-06 13:42:48","flavor":"标准规格单向传输","flavor_code":"2207201438096802","group_type":2,"product":"dts","product_code":"3d93dd88cee3337366a1e004760285c4","region":"华东-苏州","region_code":"CIDC-RP-25","unit":"个","value":{"sold_available":305}}
+[INFO ]:2023-09-06 13:42:55 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] KafkaConsumerServiceImpl:13 - topic: outer-dts, {"az":"可用区一","create_time":"2023-09-06 13:42:48","flavor":"中规格单向传输","flavor_code":"2207201438096803","group_type":2,"product":"dts","product_code":"3d93dd88cee3337366a1e004760285c4","region":"华东-苏州","region_code":"CIDC-RP-25","unit":"个","value":{"sold_available":305}}
+[INFO ]:2023-09-06 13:42:55 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] KafkaConsumerServiceImpl:13 - topic: outer-dts, {"az":"可用区一","create_time":"2023-09-06 13:42:49","flavor":"大规格单向传输","flavor_code":"2207201438096804","group_type":2,"product":"dts","product_code":"3d93dd88cee3337366a1e004760285c4","region":"华东-苏州","region_code":"CIDC-RP-25","unit":"个","value":{"sold_available":100}}
+[INFO ]:2023-09-06 13:42:55 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] KafkaConsumerServiceImpl:13 - topic: outer-dts, {"az":"可用区一","create_time":"2023-09-06 13:42:49","flavor":"小规格双向传输","flavor_code":"2207201438096805","group_type":2,"product":"dts","product_code":"3d93dd88cee3337366a1e004760285c4","region":"华东-苏州","region_code":"CIDC-RP-25","unit":"个","value":{"sold_available":305}}
+[INFO ]:2023-09-06 13:42:55 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] KafkaConsumerServiceImpl:13 - topic: outer-dts, {"az":"可用区一","create_time":"2023-09-06 13:42:50","flavor":"标准规格双向传输","flavor_code":"2207201438096806","group_type":2,"product":"dts","product_code":"3d93dd88cee3337366a1e004760285c4","region":"华东-苏州","region_code":"CIDC-RP-25","unit":"个","value":{"sold_available":151}}
+[INFO ]:2023-09-06 13:42:55 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] KafkaConsumerServiceImpl:13 - topic: outer-dts, {"az":"可用区一","create_time":"2023-09-06 13:42:50","flavor":"中规格双向传输","flavor_code":"2207201438096807","group_type":2,"product":"dts","product_code":"3d93dd88cee3337366a1e004760285c4","region":"华东-苏州","region_code":"CIDC-RP-25","unit":"个","value":{"sold_available":151}}
+[INFO ]:2023-09-06 13:42:55 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] KafkaConsumerServiceImpl:13 - topic: outer-dts, {"az":"可用区一","create_time":"2023-09-06 13:42:51","flavor":"大规格双向传输","flavor_code":"2207201438096808","group_type":2,"product":"dts","product_code":"3d93dd88cee3337366a1e004760285c4","region":"华东-苏州","region_code":"CIDC-RP-25","unit":"个","value":{"sold_available":48}}
+[INFO ]:2023-09-06 13:42:55 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] KafkaConsumerServiceImpl:13 - topic: outer-dts, {"az":"可用区一","create_time":"2023-09-06 13:42:51","flavor":"小规格单向传输（专线）","flavor_code":"2207201438096809","group_type":2,"product":"dts","product_code":"3d93dd88cee3337366a1e004760285c4","region":"华东-苏州","region_code":"CIDC-RP-25","unit":"个","value":{"sold_available":613}}
+[INFO ]:2023-09-06 13:42:55 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] KafkaConsumerServiceImpl:13 - topic: outer-dts, {"az":"可用区一","create_time":"2023-09-06 13:42:52","flavor":"标准规格单向传输（专线）","flavor_code":"2207201438096810","group_type":2,"product":"dts","product_code":"3d93dd88cee3337366a1e004760285c4","region":"华东-苏州","region_code":"CIDC-RP-25","unit":"个","value":{"sold_available":305}}
+[INFO ]:2023-09-06 13:42:55 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] KafkaConsumerServiceImpl:13 - topic: outer-dts, {"az":"可用区一","create_time":"2023-09-06 13:42:52","flavor":"中规格单向传输（专线）","flavor_code":"2207201438096811","group_type":2,"product":"dts","product_code":"3d93dd88cee3337366a1e004760285c4","region":"华东-苏州","region_code":"CIDC-RP-25","unit":"个","value":{"sold_available":305}}
+[INFO ]:2023-09-06 13:42:55 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] KafkaConsumerServiceImpl:13 - topic: outer-dts, {"az":"可用区一","create_time":"2023-09-06 13:42:53","flavor":"大规格单向传输（专线）","flavor_code":"2207201438096812","group_type":2,"product":"dts","product_code":"3d93dd88cee3337366a1e004760285c4","region":"华东-苏州","region_code":"CIDC-RP-25","unit":"个","value":{"sold_available":100}}
+[INFO ]:2023-09-06 13:42:55 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] KafkaConsumerServiceImpl:13 - topic: outer-dts, {"az":"可用区一","create_time":"2023-09-06 13:42:53","flavor":"小规格双向传输（专线）","flavor_code":"2207201438096813","group_type":2,"product":"dts","product_code":"3d93dd88cee3337366a1e004760285c4","region":"华东-苏州","region_code":"CIDC-RP-25","unit":"个","value":{"sold_available":305}}
+[INFO ]:2023-09-06 13:42:55 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] KafkaConsumerServiceImpl:13 - topic: outer-dts, {"az":"可用区一","create_time":"2023-09-06 13:42:54","flavor":"标准规格双向传输（专线）","flavor_code":"2207201438096814","group_type":2,"product":"dts","product_code":"3d93dd88cee3337366a1e004760285c4","region":"华东-苏州","region_code":"CIDC-RP-25","unit":"个","value":{"sold_available":151}}
+[INFO ]:2023-09-06 13:42:55 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] KafkaConsumerServiceImpl:13 - topic: outer-dts, {"az":"可用区一","create_time":"2023-09-06 13:42:54","flavor":"中规格双向传输（专线）","flavor_code":"2207201438096815","group_type":2,"product":"dts","product_code":"3d93dd88cee3337366a1e004760285c4","region":"华东-苏州","region_code":"CIDC-RP-25","unit":"个","value":{"sold_available":151}}
+[INFO ]:2023-09-06 13:42:55 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] KafkaConsumerServiceImpl:13 - topic: outer-dts, {"az":"可用区一","create_time":"2023-09-06 13:42:55","flavor":"大规格双向传输（专线）","flavor_code":"2207201438096816","group_type":2,"product":"dts","product_code":"3d93dd88cee3337366a1e004760285c4","region":"华东-苏州","region_code":"CIDC-RP-25","unit":"个","value":{"sold_available":48}}
+[INFO ]:2023-09-06 13:43:30 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ConsumerCoordinator:311 - [Consumer clientId=consumer-outer-dts-1, groupId=outer-dts] Revoke previously assigned partitions outer-dts-0
+[INFO ]:2023-09-06 13:43:30 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] KafkaMessageListenerContainer:292 - outer-dts: partitions revoked: [outer-dts-0]
+[INFO ]:2023-09-06 13:43:30 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ConsumerCoordinator:1060 - [Consumer clientId=consumer-outer-dts-1, groupId=outer-dts] Member consumer-outer-dts-1-aff24308-530a-4d36-aa45-6756a134360a sending LeaveGroup request to coordinator 10.253.198.65:9092 (id: 2147483646 rack: null) due to the consumer unsubscribed from all topics
+[INFO ]:2023-09-06 13:43:30 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ConsumerCoordinator:972 - [Consumer clientId=consumer-outer-dts-1, groupId=outer-dts] Resetting generation due to: consumer pro-actively leaving the group
+[INFO ]:2023-09-06 13:43:30 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ConsumerCoordinator:1000 - [Consumer clientId=consumer-outer-dts-1, groupId=outer-dts] Request joining group due to: consumer pro-actively leaving the group
+[INFO ]:2023-09-06 13:43:30 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] KafkaConsumer:1075 - [Consumer clientId=consumer-outer-dts-1, groupId=outer-dts] Unsubscribed all topics or patterns and assigned partitions
+[INFO ]:2023-09-06 13:43:30 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ConsumerCoordinator:972 - [Consumer clientId=consumer-outer-dts-1, groupId=outer-dts] Resetting generation due to: consumer pro-actively leaving the group
+[INFO ]:2023-09-06 13:43:30 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] ConsumerCoordinator:1000 - [Consumer clientId=consumer-outer-dts-1, groupId=outer-dts] Request joining group due to: consumer pro-actively leaving the group
+[INFO ]:2023-09-06 13:43:30 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Metrics:659 - Metrics scheduler closed
+[INFO ]:2023-09-06 13:43:30 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Metrics:663 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[INFO ]:2023-09-06 13:43:30 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] Metrics:669 - Metrics reporters closed
+[INFO ]:2023-09-06 13:43:30 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] AppInfoParser:83 - App info kafka.consumer for consumer-outer-dts-1 unregistered
+[INFO ]:2023-09-06 13:43:30 [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] KafkaMessageListenerContainer:292 - outer-dts: Consumer stopped
+[INFO ]:2023-09-06 13:43:30 [SpringApplicationShutdownHook] KafkaProducer:1249 - [Producer clientId=producer-1] Closing the Kafka producer with timeoutMillis = 30000 ms.
+[INFO ]:2023-09-06 13:43:30 [SpringApplicationShutdownHook] Metrics:659 - Metrics scheduler closed
+[INFO ]:2023-09-06 13:43:30 [SpringApplicationShutdownHook] Metrics:663 - Closing reporter org.apache.kafka.common.metrics.JmxReporter
+[INFO ]:2023-09-06 13:43:30 [SpringApplicationShutdownHook] Metrics:669 - Metrics reporters closed
+[INFO ]:2023-09-06 13:43:30 [SpringApplicationShutdownHook] AppInfoParser:83 - App info kafka.producer for producer-1 unregistered
+[INFO ]:2023-09-06 13:43:30 [SpringApplicationShutdownHook] LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'default'
+[INFO ]:2023-09-06 13:43:30 [SpringApplicationShutdownHook] HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+[INFO ]:2023-09-06 13:43:30 [SpringApplicationShutdownHook] HikariDataSource:352 - HikariPool-1 - Shutdown completed.

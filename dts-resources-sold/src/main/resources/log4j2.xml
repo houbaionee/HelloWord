@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="OFF" monitorInterval="30">
+    <Properties>
+        <!--设置日志在硬盘上输出的目录-->
+        <Property name="logPath">./logs/</Property>
+    </Properties>
+
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout charset="UTF-8" pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+        </Console>
+
+        <RollingFile name="LOGINFO"
+                     fileName="${logPath}/server.log"
+                     filePattern="${logPath}%d{yyyy-MM-dd}.log">
+            <Filters>
+                <ThresholdFilter level="FATAL"
+                                 onMatch="ACCEPT" onMismatch="NEUTRAL" />
+                <ThresholdFilter level="ERROR"
+                                 onMatch="ACCEPT" onMismatch="NEUTRAL" />
+                <ThresholdFilter level="WARN"
+                                 onMatch="ACCEPT" onMismatch="NEUTRAL" />
+                <ThresholdFilter level="INFO"
+                                 onMatch="ACCEPT" onMismatch="NEUTRAL" />
+                <ThresholdFilter level="DEBUG"
+                                 onMatch="DENY" onMismatch="NEUTRAL" />
+                <ThresholdFilter level="TRACE"
+                                 onMatch="DENY" onMismatch="NEUTRAL" />
+            </Filters>
+            <PatternLayout charset="UTF-8"
+                           pattern="[%-5p]:%d{YYYY-MM-dd HH:mm:ss} [%t] %c{1}:%L - %msg%n" />
+            <Policies>
+                <TimeBasedTriggeringPolicy
+                        modulate="true" interval="1" />
+                <!--设置日志文件满100MB后打包 -->
+                <SizeBasedTriggeringPolicy
+                        size="100 MB" />
+            </Policies>
+            <DefaultRolloverStrategy max="20" />
+        </RollingFile>
+
+    </Appenders>
+    <Loggers>
+        <!-- 打印sql语句 -->
+        <Logger name="org.hibernate.SQL" level="info" additivity="false">
+            <AppenderRef ref="LOGINFO" />
+        </Logger>
+        <!-- 打印sql语句的参数绑定 -->
+        <Logger name="org.hibernate.type" level="trace" additivity="false">
+            <AppenderRef ref="LOGINFO" />
+        </Logger>
+        <!-- level属性的缺省值为ERROR -->
+        <Logger name="org.springframework" additivity="false">
+            <AppenderRef ref="LOGINFO" />
+        </Logger>
+        <!-- 打印hibernate的info日志 -->
+        <Logger name="org.hibernate" additivity="false">
+            <AppenderRef ref="LOGINFO" />
+        </Logger>
+        <Logger name="com.mchange.v2" additivity="false">
+            <AppenderRef ref="LOGINFO" />
+        </Logger>
+        <Logger name="org.apache" additivity="false">
+            <AppenderRef ref="LOGINFO" />
+        </Logger>
+        <Logger name="org.quartz" additivity="false">
+            <AppenderRef ref="LOGINFO" />
+        </Logger>
+        <Logger name="com.chinamobile" additivity="false" level="INFO">
+            <AppenderRef ref="LOGINFO" />
+        </Logger>
+        <Root level="INFO">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="LOGINFO" />
+        </Root>
+    </Loggers>
+</Configuration>

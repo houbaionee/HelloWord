@@ -1,0 +1,71 @@
+server:
+    port: 8000
+
+spring:
+    datasource:
+        dbcp2:
+            initial-size: 5
+            max-idle: 6
+            max-total: 10
+            max-wait-millis: 10000
+            min-idle: 3
+            test-on-borrow: false
+            test-while-idle: true
+            validation-query: SELECT 1
+        driverClassName: com.mysql.cj.jdbc.Driver
+        max-active: 100
+        max-idle: 30
+        max-lifetime: 300000
+        max-wait: 10000
+        password: DTS@YyIsCiUVZs6qHYuGsdebSA==
+        test-on-borrow: true
+        url: jdbc:mysql://localhost:3306/dts?useSSL=false&useUnicode=true&allowPublicKeyRetrieval=true&amp&characterEncoding=utf-8
+#        url: jdbc:mysql://192.168.73.100:3306/dts?useSSL=false&useUnicode=true&allowPublicKeyRetrieval=true&amp&characterEncoding=utf-8
+        username: root
+        validation-query: SELECT 1 FROM DUAL
+    jpa:
+        database: MYSQL
+        hibernate:
+            ddl-auto: update
+            naming:
+                physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+            naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+        show-sql: true
+    kafka:
+        bootstrap-servers: 10.253.198.65:9092
+        topic: outer-dts
+        consumer:
+#            key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+#            value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+            properties:
+                sasl.mechanism: SCRAM-SHA-512
+                security.protocol: SASL_PLAINTEXT
+                sasl.jaas.config: org.apache.kafka.common.security.scram.ScramLoginModule required username="admin" password="NoJbjNR*%Y%7pip";
+            group-id: outer-dts
+        producer:
+            key-serializer: org.apache.kafka.common.serialization.StringSerializer
+            value-serializer: org.apache.kafka.common.serialization.StringSerializer
+            properties:
+                sasl.mechanism: SCRAM-SHA-512
+                security.protocol: SASL_PLAINTEXT
+                sasl.jaas.config: org.apache.kafka.common.security.scram.ScramLoginModule required username="admin" password="NoJbjNR*%Y%7pip";
+
+
+capacity:
+    productCode: 3d93dd88cee3337366a1e004760285c4
+    productType: dts
+    region: 华东-苏州
+    regionCode: CIDC-RP-25
+mop:
+    appId: 50014603
+    order:
+        enable: false
+    privateKey: MIIBhQIBADANBgkqhkiG9w0BAQEFAASCAW8wggFrAgEAAkwAulbTNA1nt7MIwZbQF7NdhfntIURb4HBfjtHDiPxkhP644qlDRUHo8DunrLB55F/RqFGTMMS+OWcdaH6err5oVErdyq25XwSnUlj5AgMBAAECS3gjrrxqwCpSRhz6rWP6gxv0TY0bU9la2mFsoRNbFzwgNvf8haC52SGDt8xZjCqOI+/G7lcKqKIzA8FGcFxVI2TVbnHJiZGRJlIvWQImD89pP3L0jK3PtjYDeKOXA5Z+E4m8CE+GkQeomL7jNEMyYs1KNAcCJgvJN+c5Hg/AkZnge3MmmcjphFEIUvzTDEY+Z0bvtmNHaEr/Dcr/AiYIRUydsJlV7qc2ftMaDRo2+kdCGU+QWWnf/M2p+lIJSQ3WueYTiQImA9szilka5+aG/UUAv1165czZ+TVzCbv4ASe73O7jyzn6+sbW+XsCJgJZZHAkp1mr84LiiRPTOfJ+BErNC6auJSz40TcpurIXOeuawAA6
+    publicKey: MGcwDQYJKoZIhvcNAQEBBQADVgAwUwJMALpW0zQNZ7ezCMGW0BezXYX57SFEW+BwX47Rw4j8ZIT+uOKpQ0VB6PA7p6yweeRf0ahRkzDEvjlnHWh+nq6+aFRK3cqtuV8Ep1JY+QIDAQAB
+    status: 1
+    test: false
+    url: http://10.253.141.114:28000/emop
+    user:
+        enable: true
+
+

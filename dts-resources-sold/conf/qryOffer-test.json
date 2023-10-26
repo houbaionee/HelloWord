@@ -1,0 +1,1671 @@
+{
+  "result": {
+    "body": [
+      {
+        "offerId": "3d93dd88cee3337366a1e004760285c4",
+        "offerName": "数据库传输服务DTS",
+        "productId": "9200412",
+        "productType": "dts",
+        "repeat": true,
+        "productChas": [
+          {
+            "chaId": "2207201438096801",
+            "chaSeq": 1,
+            "pools": [
+              {
+                "zoneList": [
+                  {
+                    "zoneId": "2008051157510054",
+                    "zoneType": "",
+                    "zoneDesc": "N0574-ZJ-NBZD01",
+                    "zoneName": "可用区一",
+                    "zoneStatus": "1",
+                    "soldOut": "0",
+                    "remainCount": "524",
+                    "zoneCode": "CIDC-RP-25-57"
+                  }
+                ],
+                "poolId": "CIDC-RP-25",
+                "chaStatus": "1",
+                "poolName": "华东-苏州"
+              }
+            ],
+            "chaName": "小规格单向传输",
+            "isTrail": "0",
+            "prices": [
+              {
+                "feeUnit": "month",
+                "chargeType": "2",
+                "scenes": [
+                  {
+                    "ladder": false,
+                    "sceneName": "包月费",
+                    "fee": "101",
+                    "sceneId": "3101025501",
+                    "bill": false,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396501",
+                "priceName": "小规格单向传输 包月费",
+                "feeType": "1",
+                "priceSeq": 1,
+                "status": "1"
+              },
+              {
+                "feeUnit": "hour",
+                "chargeType": "1",
+                "scenes": [
+                  {
+                    "unit": "元/小时",
+                    "ladder": false,
+                    "chargeMode": "93",
+                    "sceneName": "小规格单向传输按小时单价",
+                    "fee": "0.001",
+                    "sceneId": "3101026102",
+                    "bill": true,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396802",
+                "priceName": "小规格单向传输 按小时套餐",
+                "feeType": "2",
+                "priceSeq": 2,
+                "status": "1"
+              }
+            ],
+            "attrs": [
+              {
+                "attrId": "2021010819005201",
+                "attrCode": "arch",
+                "attrVal": "oneway",
+                "attrSeq": 1,
+                "attrName": "同步拓扑",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005302",
+                "attrCode": "size",
+                "attrVal": "micro",
+                "attrSeq": 1,
+                "attrName": "同步链路规格",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005303",
+                "attrCode": "rps",
+                "attrVal": "200",
+                "attrSeq": 1,
+                "attrName": "RPS",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005304",
+                "attrCode": "network",
+                "attrVal": "public",
+                "attrSeq": 1,
+                "attrName": "网络类型",
+                "attrType": "2"
+              }
+            ]
+          },
+          {
+            "chaId": "2207201438096802",
+            "chaSeq": 1,
+            "pools": [
+              {
+                "zoneList": [
+                  {
+                    "zoneId": "2008051157510054",
+                    "zoneType": "",
+                    "zoneDesc": "N0574-ZJ-NBZD01",
+                    "zoneName": "可用区一",
+                    "zoneStatus": "1",
+                    "soldOut": "0",
+                    "remainCount": "524",
+                    "zoneCode": "CIDC-RP-25-57"
+                  }
+                ],
+                "poolId": "CIDC-RP-25",
+                "chaStatus": "1",
+                "poolName": "华东-苏州"
+              }
+            ],
+            "chaName": "标准规格单向传输",
+            "isTrail": "0",
+            "prices": [
+              {
+                "feeUnit": "month",
+                "chargeType": "2",
+                "scenes": [
+                  {
+                    "ladder": false,
+                    "sceneName": "包月费",
+                    "fee": "102",
+                    "sceneId": "3101025503",
+                    "bill": false,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396503",
+                "priceName": "标准规格单向传输 包月费",
+                "feeType": "1",
+                "priceSeq": 1,
+                "status": "1"
+              },
+              {
+                "feeUnit": "hour",
+                "chargeType": "1",
+                "scenes": [
+                  {
+                    "unit": "元/小时",
+                    "ladder": false,
+                    "chargeMode": "93",
+                    "sceneName": "标准规格单向传输按小时单价",
+                    "fee": "0.002",
+                    "sceneId": "3101026104",
+                    "bill": true,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396804",
+                "priceName": "标准规格单向传输 按小时套餐",
+                "feeType": "2",
+                "priceSeq": 2,
+                "status": "1"
+              }
+            ],
+            "attrs": [
+              {
+                "attrId": "2021010819005201",
+                "attrCode": "arch",
+                "attrVal": "oneway",
+                "attrSeq": 1,
+                "attrName": "同步拓扑",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005302",
+                "attrCode": "size",
+                "attrVal": "small",
+                "attrSeq": 1,
+                "attrName": "同步链路规格",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005303",
+                "attrCode": "rps",
+                "attrVal": "2000",
+                "attrSeq": 1,
+                "attrName": "RPS",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005304",
+                "attrCode": "network",
+                "attrVal": "public",
+                "attrSeq": 1,
+                "attrName": "网络类型",
+                "attrType": "2"
+              }
+            ]
+          },
+          {
+            "chaId": "2207201438096803",
+            "chaSeq": 1,
+            "pools": [
+              {
+                "zoneList": [
+                  {
+                    "zoneId": "2008051157510054",
+                    "zoneType": "",
+                    "zoneDesc": "N0574-ZJ-NBZD01",
+                    "zoneName": "可用区一",
+                    "zoneStatus": "1",
+                    "soldOut": "0",
+                    "remainCount": "524",
+                    "zoneCode": "CIDC-RP-25-57"
+                  }
+                ],
+                "poolId": "CIDC-RP-25",
+                "chaStatus": "1",
+                "poolName": "华东-苏州"
+              }
+            ],
+            "chaName": "中规格单向传输",
+            "isTrail": "0",
+            "prices": [
+              {
+                "feeUnit": "month",
+                "chargeType": "2",
+                "scenes": [
+                  {
+                    "ladder": false,
+                    "sceneName": "包月费",
+                    "fee": "103",
+                    "sceneId": "3101025505",
+                    "bill": false,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396505",
+                "priceName": "中规格单向传输 包月费",
+                "feeType": "1",
+                "priceSeq": 1,
+                "status": "1"
+              },
+              {
+                "feeUnit": "hour",
+                "chargeType": "1",
+                "scenes": [
+                  {
+                    "unit": "元/小时",
+                    "ladder": false,
+                    "chargeMode": "93",
+                    "sceneName": "中规格单向传输按小时单价",
+                    "fee": "0.003",
+                    "sceneId": "3101026106",
+                    "bill": true,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396806",
+                "priceName": "中规格单向传输 按小时套餐",
+                "feeType": "2",
+                "priceSeq": 2,
+                "status": "1"
+              }
+            ],
+            "attrs": [
+              {
+                "attrId": "2021010819005201",
+                "attrCode": "arch",
+                "attrVal": "oneway",
+                "attrSeq": 1,
+                "attrName": "同步拓扑",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005302",
+                "attrCode": "size",
+                "attrVal": "medium",
+                "attrSeq": 1,
+                "attrName": "同步链路规格",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005303",
+                "attrCode": "rps",
+                "attrVal": "5000",
+                "attrSeq": 1,
+                "attrName": "RPS",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005304",
+                "attrCode": "network",
+                "attrVal": "public",
+                "attrSeq": 1,
+                "attrName": "网络类型",
+                "attrType": "2"
+              }
+            ]
+          },
+          {
+            "chaId": "2207201438096804",
+            "chaSeq": 1,
+            "pools": [
+              {
+                "zoneList": [
+                  {
+                    "zoneId": "2008051157510054",
+                    "zoneType": "",
+                    "zoneDesc": "N0574-ZJ-NBZD01",
+                    "zoneName": "可用区一",
+                    "zoneStatus": "1",
+                    "soldOut": "0",
+                    "remainCount": "524",
+                    "zoneCode": "CIDC-RP-25-57"
+                  }
+                ],
+                "poolId": "CIDC-RP-25",
+                "chaStatus": "1",
+                "poolName": "华东-苏州"
+              }
+            ],
+            "chaName": "大规格单向传输",
+            "isTrail": "0",
+            "prices": [
+              {
+                "feeUnit": "month",
+                "chargeType": "2",
+                "scenes": [
+                  {
+                    "ladder": false,
+                    "sceneName": "包月费",
+                    "fee": "104",
+                    "sceneId": "3101025507",
+                    "bill": false,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396507",
+                "priceName": "大规格单向传输 包月费",
+                "feeType": "1",
+                "priceSeq": 1,
+                "status": "1"
+              },
+              {
+                "feeUnit": "hour",
+                "chargeType": "1",
+                "scenes": [
+                  {
+                    "unit": "元/小时",
+                    "ladder": false,
+                    "chargeMode": "93",
+                    "sceneName": "大规格单向传输按小时单价",
+                    "fee": "0.004",
+                    "sceneId": "3101026108",
+                    "bill": true,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396808",
+                "priceName": "大规格单向传输 按小时套餐",
+                "feeType": "2",
+                "priceSeq": 2,
+                "status": "1"
+              }
+            ],
+            "attrs": [
+              {
+                "attrId": "2021010819005201",
+                "attrCode": "arch",
+                "attrVal": "oneway",
+                "attrSeq": 1,
+                "attrName": "同步拓扑",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005302",
+                "attrCode": "size",
+                "attrVal": "large",
+                "attrSeq": 1,
+                "attrName": "同步链路规格",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005303",
+                "attrCode": "rps",
+                "attrVal": ">5000",
+                "attrSeq": 1,
+                "attrName": "RPS",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005304",
+                "attrCode": "network",
+                "attrVal": "public",
+                "attrSeq": 1,
+                "attrName": "网络类型",
+                "attrType": "2"
+              }
+            ]
+          },
+          {
+            "chaId": "2207201438096805",
+            "chaSeq": 1,
+            "pools": [
+              {
+                "zoneList": [
+                  {
+                    "zoneId": "2008051157510054",
+                    "zoneType": "",
+                    "zoneDesc": "N0574-ZJ-NBZD01",
+                    "zoneName": "可用区一",
+                    "zoneStatus": "1",
+                    "soldOut": "0",
+                    "remainCount": "524",
+                    "zoneCode": "CIDC-RP-25-57"
+                  }
+                ],
+                "poolId": "CIDC-RP-25",
+                "chaStatus": "1",
+                "poolName": "华东-苏州"
+              }
+            ],
+            "chaName": "小规格双向传输",
+            "isTrail": "0",
+            "prices": [
+              {
+                "feeUnit": "month",
+                "chargeType": "2",
+                "scenes": [
+                  {
+                    "ladder": false,
+                    "sceneName": "包月费",
+                    "fee": "102",
+                    "sceneId": "3101025509",
+                    "bill": false,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396509",
+                "priceName": "小规格双向传输 包月费",
+                "feeType": "1",
+                "priceSeq": 1,
+                "status": "1"
+              },
+              {
+                "feeUnit": "hour",
+                "chargeType": "1",
+                "scenes": [
+                  {
+                    "unit": "元/小时",
+                    "ladder": false,
+                    "chargeMode": "93",
+                    "sceneName": "小规格双向传输按小时单价",
+                    "fee": "0.002",
+                    "sceneId": "3101026110",
+                    "bill": true,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396810",
+                "priceName": "小规格双向传输 按小时套餐",
+                "feeType": "2",
+                "priceSeq": 2,
+                "status": "1"
+              }
+            ],
+            "attrs": [
+              {
+                "attrId": "2021010819005201",
+                "attrCode": "arch",
+                "attrVal": "bidirectional",
+                "attrSeq": 1,
+                "attrName": "同步拓扑",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005302",
+                "attrCode": "size",
+                "attrVal": "micro",
+                "attrSeq": 1,
+                "attrName": "同步链路规格",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005303",
+                "attrCode": "rps",
+                "attrVal": "200",
+                "attrSeq": 1,
+                "attrName": "RPS",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005304",
+                "attrCode": "network",
+                "attrVal": "public",
+                "attrSeq": 1,
+                "attrName": "网络类型",
+                "attrType": "2"
+              }
+            ]
+          },
+          {
+            "chaId": "2207201438096806",
+            "chaSeq": 1,
+            "pools": [
+              {
+                "zoneList": [
+                  {
+                    "zoneId": "2008051157510054",
+                    "zoneType": "",
+                    "zoneDesc": "N0574-ZJ-NBZD01",
+                    "zoneName": "可用区一",
+                    "zoneStatus": "1",
+                    "soldOut": "0",
+                    "remainCount": "524",
+                    "zoneCode": "CIDC-RP-25-57"
+                  }
+                ],
+                "poolId": "CIDC-RP-25",
+                "chaStatus": "1",
+                "poolName": "华东-苏州"
+              }
+            ],
+            "chaName": "标准规格双向传输",
+            "isTrail": "0",
+            "prices": [
+              {
+                "feeUnit": "month",
+                "chargeType": "2",
+                "scenes": [
+                  {
+                    "ladder": false,
+                    "sceneName": "包月费",
+                    "fee": "104",
+                    "sceneId": "3101025511",
+                    "bill": false,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396511",
+                "priceName": "标准规格双向传输 包月费",
+                "feeType": "1",
+                "priceSeq": 1,
+                "status": "1"
+              },
+              {
+                "feeUnit": "hour",
+                "chargeType": "1",
+                "scenes": [
+                  {
+                    "unit": "元/小时",
+                    "ladder": false,
+                    "chargeMode": "93",
+                    "sceneName": "标准规格双向传输按小时单价",
+                    "fee": "0.004",
+                    "sceneId": "3101026112",
+                    "bill": true,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396812",
+                "priceName": "标准规格双向传输 按小时套餐",
+                "feeType": "2",
+                "priceSeq": 2,
+                "status": "1"
+              }
+            ],
+            "attrs": [
+              {
+                "attrId": "2021010819005201",
+                "attrCode": "arch",
+                "attrVal": "bidirectional",
+                "attrSeq": 1,
+                "attrName": "同步拓扑",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005302",
+                "attrCode": "size",
+                "attrVal": "small",
+                "attrSeq": 1,
+                "attrName": "同步链路规格",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005303",
+                "attrCode": "rps",
+                "attrVal": "2000",
+                "attrSeq": 1,
+                "attrName": "RPS",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005304",
+                "attrCode": "network",
+                "attrVal": "public",
+                "attrSeq": 1,
+                "attrName": "网络类型",
+                "attrType": "2"
+              }
+            ]
+          },
+          {
+            "chaId": "2207201438096807",
+            "chaSeq": 1,
+            "pools": [
+              {
+                "zoneList": [
+                  {
+                    "zoneId": "2008051157510054",
+                    "zoneType": "",
+                    "zoneDesc": "N0574-ZJ-NBZD01",
+                    "zoneName": "可用区一",
+                    "zoneStatus": "1",
+                    "soldOut": "0",
+                    "remainCount": "524",
+                    "zoneCode": "CIDC-RP-25-57"
+                  }
+                ],
+                "poolId": "CIDC-RP-25",
+                "chaStatus": "1",
+                "poolName": "华东-苏州"
+              }
+            ],
+            "chaName": "中规格双向传输",
+            "isTrail": "0",
+            "prices": [
+              {
+                "feeUnit": "month",
+                "chargeType": "2",
+                "scenes": [
+                  {
+                    "ladder": false,
+                    "sceneName": "包月费",
+                    "fee": "106",
+                    "sceneId": "3101025513",
+                    "bill": false,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396513",
+                "priceName": "中规格双向传输 包月费",
+                "feeType": "1",
+                "priceSeq": 1,
+                "status": "1"
+              },
+              {
+                "feeUnit": "hour",
+                "chargeType": "1",
+                "scenes": [
+                  {
+                    "unit": "元/小时",
+                    "ladder": false,
+                    "chargeMode": "93",
+                    "sceneName": "中规格双向传输按小时单价",
+                    "fee": "0.006",
+                    "sceneId": "3101026114",
+                    "bill": true,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396814",
+                "priceName": "中规格双向传输 按小时套餐",
+                "feeType": "2",
+                "priceSeq": 2,
+                "status": "1"
+              }
+            ],
+            "attrs": [
+              {
+                "attrId": "2021010819005201",
+                "attrCode": "arch",
+                "attrVal": "bidirectional",
+                "attrSeq": 1,
+                "attrName": "同步拓扑",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005302",
+                "attrCode": "size",
+                "attrVal": "medium",
+                "attrSeq": 1,
+                "attrName": "同步链路规格",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005303",
+                "attrCode": "rps",
+                "attrVal": "5000",
+                "attrSeq": 1,
+                "attrName": "RPS",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005304",
+                "attrCode": "network",
+                "attrVal": "public",
+                "attrSeq": 1,
+                "attrName": "网络类型",
+                "attrType": "2"
+              }
+            ]
+          },
+          {
+            "chaId": "2207201438096808",
+            "chaSeq": 1,
+            "pools": [
+              {
+                "zoneList": [
+                  {
+                    "zoneId": "2008051157510054",
+                    "zoneType": "",
+                    "zoneDesc": "N0574-ZJ-NBZD01",
+                    "zoneName": "可用区一",
+                    "zoneStatus": "1",
+                    "soldOut": "0",
+                    "remainCount": "524",
+                    "zoneCode": "CIDC-RP-25-57"
+                  }
+                ],
+                "poolId": "CIDC-RP-25",
+                "chaStatus": "1",
+                "poolName": "华东-苏州"
+              }
+            ],
+            "chaName": "大规格双向传输",
+            "isTrail": "0",
+            "prices": [
+              {
+                "feeUnit": "month",
+                "chargeType": "2",
+                "scenes": [
+                  {
+                    "ladder": false,
+                    "sceneName": "包月费",
+                    "fee": "108",
+                    "sceneId": "3101025515",
+                    "bill": false,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396515",
+                "priceName": "大规格双向传输 包月费",
+                "feeType": "1",
+                "priceSeq": 1,
+                "status": "1"
+              },
+              {
+                "feeUnit": "hour",
+                "chargeType": "1",
+                "scenes": [
+                  {
+                    "unit": "元/小时",
+                    "ladder": false,
+                    "chargeMode": "93",
+                    "sceneName": "大规格双向传输按小时单价",
+                    "fee": "0.008",
+                    "sceneId": "3101026116",
+                    "bill": true,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396816",
+                "priceName": "大规格双向传输 按小时套餐",
+                "feeType": "2",
+                "priceSeq": 2,
+                "status": "1"
+              }
+            ],
+            "attrs": [
+              {
+                "attrId": "2021010819005201",
+                "attrCode": "arch",
+                "attrVal": "bidirectional",
+                "attrSeq": 1,
+                "attrName": "同步拓扑",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005302",
+                "attrCode": "size",
+                "attrVal": "large",
+                "attrSeq": 1,
+                "attrName": "同步链路规格",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005303",
+                "attrCode": "rps",
+                "attrVal": ">5000",
+                "attrSeq": 1,
+                "attrName": "RPS",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005304",
+                "attrCode": "network",
+                "attrVal": "public",
+                "attrSeq": 1,
+                "attrName": "网络类型",
+                "attrType": "2"
+              }
+            ]
+          },
+          {
+            "chaId": "2207201438096809",
+            "chaSeq": 1,
+            "pools": [
+              {
+                "zoneList": [
+                  {
+                    "zoneId": "2008051157510054",
+                    "zoneType": "",
+                    "zoneDesc": "N0574-ZJ-NBZD01",
+                    "zoneName": "可用区一",
+                    "zoneStatus": "1",
+                    "soldOut": "0",
+                    "remainCount": "524",
+                    "zoneCode": "CIDC-RP-25-57"
+                  }
+                ],
+                "poolId": "CIDC-RP-25",
+                "chaStatus": "1",
+                "poolName": "华东-苏州"
+              }
+            ],
+            "chaName": "小规格单向传输（专线）",
+            "isTrail": "0",
+            "prices": [
+              {
+                "feeUnit": "month",
+                "chargeType": "2",
+                "scenes": [
+                  {
+                    "ladder": false,
+                    "sceneName": "包月费",
+                    "fee": "111",
+                    "sceneId": "3101025517",
+                    "bill": false,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396517",
+                "priceName": "小规格单向传输 包月费（专线）",
+                "feeType": "1",
+                "priceSeq": 1,
+                "status": "1"
+              },
+              {
+                "feeUnit": "hour",
+                "chargeType": "1",
+                "scenes": [
+                  {
+                    "unit": "元/小时",
+                    "ladder": false,
+                    "chargeMode": "93",
+                    "sceneName": "小规格单向传输按小时单价（专线）",
+                    "fee": "0.011",
+                    "sceneId": "3101026118",
+                    "bill": true,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396818",
+                "priceName": "小规格单向传输 按小时套餐（专线）",
+                "feeType": "2",
+                "priceSeq": 2,
+                "status": "1"
+              }
+            ],
+            "attrs": [
+              {
+                "attrId": "2021010819005201",
+                "attrCode": "arch",
+                "attrVal": "oneway",
+                "attrSeq": 1,
+                "attrName": "同步拓扑",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005302",
+                "attrCode": "size",
+                "attrVal": "micro",
+                "attrSeq": 1,
+                "attrName": "同步链路规格",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005303",
+                "attrCode": "rps",
+                "attrVal": "200",
+                "attrSeq": 1,
+                "attrName": "RPS",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005304",
+                "attrCode": "network",
+                "attrVal": "intranet",
+                "attrSeq": 1,
+                "attrName": "网络类型",
+                "attrType": "2"
+              }
+            ]
+          },
+          {
+            "chaId": "2207201438096810",
+            "chaSeq": 1,
+            "pools": [
+              {
+                "zoneList": [
+                  {
+                    "zoneId": "2008051157510054",
+                    "zoneType": "",
+                    "zoneDesc": "N0574-ZJ-NBZD01",
+                    "zoneName": "可用区一",
+                    "zoneStatus": "1",
+                    "soldOut": "0",
+                    "remainCount": "524",
+                    "zoneCode": "CIDC-RP-25-57"
+                  }
+                ],
+                "poolId": "CIDC-RP-25",
+                "chaStatus": "1",
+                "poolName": "华东-苏州"
+              }
+            ],
+            "chaName": "标准规格单向传输（专线）",
+            "isTrail": "0",
+            "prices": [
+              {
+                "feeUnit": "month",
+                "chargeType": "2",
+                "scenes": [
+                  {
+                    "ladder": false,
+                    "sceneName": "包月费",
+                    "fee": "112",
+                    "sceneId": "3101025519",
+                    "bill": false,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396519",
+                "priceName": "标准规格单向传输 包月费（专线）",
+                "feeType": "1",
+                "priceSeq": 1,
+                "status": "1"
+              },
+              {
+                "feeUnit": "hour",
+                "chargeType": "1",
+                "scenes": [
+                  {
+                    "unit": "元/小时",
+                    "ladder": false,
+                    "chargeMode": "93",
+                    "sceneName": "标准规格单向传输按小时单价（专线）",
+                    "fee": "0.012",
+                    "sceneId": "3101026120",
+                    "bill": true,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396820",
+                "priceName": "标准规格单向传输 按小时套餐（专线）",
+                "feeType": "2",
+                "priceSeq": 2,
+                "status": "1"
+              }
+            ],
+            "attrs": [
+              {
+                "attrId": "2021010819005201",
+                "attrCode": "arch",
+                "attrVal": "oneway",
+                "attrSeq": 1,
+                "attrName": "同步拓扑",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005302",
+                "attrCode": "size",
+                "attrVal": "small",
+                "attrSeq": 1,
+                "attrName": "同步链路规格",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005303",
+                "attrCode": "rps",
+                "attrVal": "2000",
+                "attrSeq": 1,
+                "attrName": "RPS",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005304",
+                "attrCode": "network",
+                "attrVal": "intranet",
+                "attrSeq": 1,
+                "attrName": "网络类型",
+                "attrType": "2"
+              }
+            ]
+          },
+          {
+            "chaId": "2207201438096811",
+            "chaSeq": 1,
+            "pools": [
+              {
+                "zoneList": [
+                  {
+                    "zoneId": "2008051157510054",
+                    "zoneType": "",
+                    "zoneDesc": "N0574-ZJ-NBZD01",
+                    "zoneName": "可用区一",
+                    "zoneStatus": "1",
+                    "soldOut": "0",
+                    "remainCount": "524",
+                    "zoneCode": "CIDC-RP-25-57"
+                  }
+                ],
+                "poolId": "CIDC-RP-25",
+                "chaStatus": "1",
+                "poolName": "华东-苏州"
+              }
+            ],
+            "chaName": "中规格单向传输（专线）",
+            "isTrail": "0",
+            "prices": [
+              {
+                "feeUnit": "month",
+                "chargeType": "2",
+                "scenes": [
+                  {
+                    "ladder": false,
+                    "sceneName": "包月费",
+                    "fee": "113",
+                    "sceneId": "3101025521",
+                    "bill": false,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396521",
+                "priceName": "中规格单向传输 包月费（专线）",
+                "feeType": "1",
+                "priceSeq": 1,
+                "status": "1"
+              },
+              {
+                "feeUnit": "hour",
+                "chargeType": "1",
+                "scenes": [
+                  {
+                    "unit": "元/小时",
+                    "ladder": false,
+                    "chargeMode": "93",
+                    "sceneName": "中规格单向传输按小时单价（专线）",
+                    "fee": "0.013",
+                    "sceneId": "3101026122",
+                    "bill": true,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396822",
+                "priceName": "中规格单向传输 按小时套餐（专线）",
+                "feeType": "2",
+                "priceSeq": 2,
+                "status": "1"
+              }
+            ],
+            "attrs": [
+              {
+                "attrId": "2021010819005201",
+                "attrCode": "arch",
+                "attrVal": "oneway",
+                "attrSeq": 1,
+                "attrName": "同步拓扑",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005302",
+                "attrCode": "size",
+                "attrVal": "medium",
+                "attrSeq": 1,
+                "attrName": "同步链路规格",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005303",
+                "attrCode": "rps",
+                "attrVal": "5000",
+                "attrSeq": 1,
+                "attrName": "RPS",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005304",
+                "attrCode": "network",
+                "attrVal": "intranet",
+                "attrSeq": 1,
+                "attrName": "网络类型",
+                "attrType": "2"
+              }
+            ]
+          },
+          {
+            "chaId": "2207201438096812",
+            "chaSeq": 1,
+            "pools": [
+              {
+                "zoneList": [
+                  {
+                    "zoneId": "2008051157510054",
+                    "zoneType": "",
+                    "zoneDesc": "N0574-ZJ-NBZD01",
+                    "zoneName": "可用区一",
+                    "zoneStatus": "1",
+                    "soldOut": "0",
+                    "remainCount": "524",
+                    "zoneCode": "CIDC-RP-25-57"
+                  }
+                ],
+                "poolId": "CIDC-RP-25",
+                "chaStatus": "1",
+                "poolName": "华东-苏州"
+              }
+            ],
+            "chaName": "大规格单向传输（专线）",
+            "isTrail": "0",
+            "prices": [
+              {
+                "feeUnit": "month",
+                "chargeType": "2",
+                "scenes": [
+                  {
+                    "ladder": false,
+                    "sceneName": "包月费",
+                    "fee": "114",
+                    "sceneId": "3101025523",
+                    "bill": false,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396523",
+                "priceName": "大规格单向传输 包月费（专线）",
+                "feeType": "1",
+                "priceSeq": 1,
+                "status": "1"
+              },
+              {
+                "feeUnit": "hour",
+                "chargeType": "1",
+                "scenes": [
+                  {
+                    "unit": "元/小时",
+                    "ladder": false,
+                    "chargeMode": "93",
+                    "sceneName": "大规格单向传输按小时单价（专线）",
+                    "fee": "0.014",
+                    "sceneId": "3101026124",
+                    "bill": true,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396824",
+                "priceName": "大规格单向传输 按小时套餐（专线）",
+                "feeType": "2",
+                "priceSeq": 2,
+                "status": "1"
+              }
+            ],
+            "attrs": [
+              {
+                "attrId": "2021010819005201",
+                "attrCode": "arch",
+                "attrVal": "oneway",
+                "attrSeq": 1,
+                "attrName": "同步拓扑",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005302",
+                "attrCode": "size",
+                "attrVal": "large",
+                "attrSeq": 1,
+                "attrName": "同步链路规格",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005303",
+                "attrCode": "rps",
+                "attrVal": ">5000",
+                "attrSeq": 1,
+                "attrName": "RPS",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005304",
+                "attrCode": "network",
+                "attrVal": "intranet",
+                "attrSeq": 1,
+                "attrName": "网络类型",
+                "attrType": "2"
+              }
+            ]
+          },
+          {
+            "chaId": "2207201438096813",
+            "chaSeq": 1,
+            "pools": [
+              {
+                "zoneList": [
+                  {
+                    "zoneId": "2008051157510054",
+                    "zoneType": "",
+                    "zoneDesc": "N0574-ZJ-NBZD01",
+                    "zoneName": "可用区一",
+                    "zoneStatus": "1",
+                    "soldOut": "0",
+                    "remainCount": "524",
+                    "zoneCode": "CIDC-RP-25-57"
+                  }
+                ],
+                "poolId": "CIDC-RP-25",
+                "chaStatus": "1",
+                "poolName": "华东-苏州"
+              }
+            ],
+            "chaName": "小规格双向传输（专线）",
+            "isTrail": "0",
+            "prices": [
+              {
+                "feeUnit": "month",
+                "chargeType": "2",
+                "scenes": [
+                  {
+                    "ladder": false,
+                    "sceneName": "包月费",
+                    "fee": "122",
+                    "sceneId": "3101025525",
+                    "bill": false,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396525",
+                "priceName": "小规格双向传输 包月费（专线）",
+                "feeType": "1",
+                "priceSeq": 1,
+                "status": "1"
+              },
+              {
+                "feeUnit": "hour",
+                "chargeType": "1",
+                "scenes": [
+                  {
+                    "unit": "元/小时",
+                    "ladder": false,
+                    "chargeMode": "93",
+                    "sceneName": "小规格双向传输按小时单价（专线）",
+                    "fee": "0.022",
+                    "sceneId": "3101026126",
+                    "bill": true,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396826",
+                "priceName": "小规格双向传输 按小时套餐（专线）",
+                "feeType": "2",
+                "priceSeq": 2,
+                "status": "1"
+              }
+            ],
+            "attrs": [
+              {
+                "attrId": "2021010819005201",
+                "attrCode": "arch",
+                "attrVal": "bidirectional",
+                "attrSeq": 1,
+                "attrName": "同步拓扑",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005302",
+                "attrCode": "size",
+                "attrVal": "micro",
+                "attrSeq": 1,
+                "attrName": "同步链路规格",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005303",
+                "attrCode": "rps",
+                "attrVal": "200",
+                "attrSeq": 1,
+                "attrName": "RPS",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005304",
+                "attrCode": "network",
+                "attrVal": "intranet",
+                "attrSeq": 1,
+                "attrName": "网络类型",
+                "attrType": "2"
+              }
+            ]
+          },
+          {
+            "chaId": "2207201438096814",
+            "chaSeq": 1,
+            "pools": [
+              {
+                "zoneList": [
+                  {
+                    "zoneId": "2008051157510054",
+                    "zoneType": "",
+                    "zoneDesc": "N0574-ZJ-NBZD01",
+                    "zoneName": "可用区一",
+                    "zoneStatus": "1",
+                    "soldOut": "0",
+                    "remainCount": "524",
+                    "zoneCode": "CIDC-RP-25-57"
+                  }
+                ],
+                "poolId": "CIDC-RP-25",
+                "chaStatus": "1",
+                "poolName": "华东-苏州"
+              }
+            ],
+            "chaName": "标准规格双向传输（专线）",
+            "isTrail": "0",
+            "prices": [
+              {
+                "feeUnit": "month",
+                "chargeType": "2",
+                "scenes": [
+                  {
+                    "ladder": false,
+                    "sceneName": "包月费",
+                    "fee": "124",
+                    "sceneId": "3101025527",
+                    "bill": false,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396527",
+                "priceName": "标准规格双向传输 包月费（专线）",
+                "feeType": "1",
+                "priceSeq": 1,
+                "status": "1"
+              },
+              {
+                "feeUnit": "hour",
+                "chargeType": "1",
+                "scenes": [
+                  {
+                    "unit": "元/小时",
+                    "ladder": false,
+                    "chargeMode": "93",
+                    "sceneName": "标准规格双向传输按小时单价（专线）",
+                    "fee": "0.024",
+                    "sceneId": "3101026128",
+                    "bill": true,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396828",
+                "priceName": "标准规格双向传输 按小时套餐（专线）",
+                "feeType": "2",
+                "priceSeq": 2,
+                "status": "1"
+              }
+            ],
+            "attrs": [
+              {
+                "attrId": "2021010819005201",
+                "attrCode": "arch",
+                "attrVal": "bidirectional",
+                "attrSeq": 1,
+                "attrName": "同步拓扑",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005302",
+                "attrCode": "size",
+                "attrVal": "small",
+                "attrSeq": 1,
+                "attrName": "同步链路规格",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005303",
+                "attrCode": "rps",
+                "attrVal": "2000",
+                "attrSeq": 1,
+                "attrName": "RPS",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005304",
+                "attrCode": "network",
+                "attrVal": "intranet",
+                "attrSeq": 1,
+                "attrName": "网络类型",
+                "attrType": "2"
+              }
+            ]
+          },
+          {
+            "chaId": "2207201438096815",
+            "chaSeq": 1,
+            "pools": [
+              {
+                "zoneList": [
+                  {
+                    "zoneId": "2008051157510054",
+                    "zoneType": "",
+                    "zoneDesc": "N0574-ZJ-NBZD01",
+                    "zoneName": "可用区一",
+                    "zoneStatus": "1",
+                    "soldOut": "0",
+                    "remainCount": "524",
+                    "zoneCode": "CIDC-RP-25-57"
+                  }
+                ],
+                "poolId": "CIDC-RP-25",
+                "chaStatus": "1",
+                "poolName": "华东-苏州"
+              }
+            ],
+            "chaName": "中规格双向传输（专线）",
+            "isTrail": "0",
+            "prices": [
+              {
+                "feeUnit": "month",
+                "chargeType": "2",
+                "scenes": [
+                  {
+                    "ladder": false,
+                    "sceneName": "包月费",
+                    "fee": "126",
+                    "sceneId": "3101025529",
+                    "bill": false,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396529",
+                "priceName": "中规格双向传输 包月费（专线）",
+                "feeType": "1",
+                "priceSeq": 1,
+                "status": "1"
+              },
+              {
+                "feeUnit": "hour",
+                "chargeType": "1",
+                "scenes": [
+                  {
+                    "unit": "元/小时",
+                    "ladder": false,
+                    "chargeMode": "93",
+                    "sceneName": "中规格双向传输按小时单价（专线）",
+                    "fee": "0.026",
+                    "sceneId": "3101026130",
+                    "bill": true,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396830",
+                "priceName": "中规格双向传输 按小时套餐（专线）",
+                "feeType": "2",
+                "priceSeq": 2,
+                "status": "1"
+              }
+            ],
+            "attrs": [
+              {
+                "attrId": "2021010819005201",
+                "attrCode": "arch",
+                "attrVal": "bidirectional",
+                "attrSeq": 1,
+                "attrName": "同步拓扑",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005302",
+                "attrCode": "size",
+                "attrVal": "medium",
+                "attrSeq": 1,
+                "attrName": "同步链路规格",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005303",
+                "attrCode": "rps",
+                "attrVal": "5000",
+                "attrSeq": 1,
+                "attrName": "RPS",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005304",
+                "attrCode": "network",
+                "attrVal": "intranet",
+                "attrSeq": 1,
+                "attrName": "网络类型",
+                "attrType": "2"
+              }
+            ]
+          },
+          {
+            "chaId": "2207201438096816",
+            "chaSeq": 1,
+            "pools": [
+              {
+                "zoneList": [
+                  {
+                    "zoneId": "2008051157510054",
+                    "zoneType": "",
+                    "zoneDesc": "N0574-ZJ-NBZD01",
+                    "zoneName": "可用区一",
+                    "zoneStatus": "1",
+                    "soldOut": "0",
+                    "remainCount": "524",
+                    "zoneCode": "CIDC-RP-25-57"
+                  }
+                ],
+                "poolId": "CIDC-RP-25",
+                "chaStatus": "1",
+                "poolName": "华东-苏州"
+              }
+            ],
+            "chaName": "大规格双向传输（专线）",
+            "isTrail": "0",
+            "prices": [
+              {
+                "feeUnit": "month",
+                "chargeType": "2",
+                "scenes": [
+                  {
+                    "ladder": false,
+                    "sceneName": "包月费",
+                    "fee": "128",
+                    "sceneId": "3101025531",
+                    "bill": false,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396531",
+                "priceName": "大规格双向传输 包月费（专线）",
+                "feeType": "1",
+                "priceSeq": 1,
+                "status": "1"
+              },
+              {
+                "feeUnit": "hour",
+                "chargeType": "1",
+                "scenes": [
+                  {
+                    "unit": "元/小时",
+                    "ladder": false,
+                    "chargeMode": "93",
+                    "sceneName": "大规格双向传输按小时单价（专线）",
+                    "fee": "0.028",
+                    "sceneId": "3101026132",
+                    "bill": true,
+                    "discount": "100"
+                  }
+                ],
+                "priceType": "1",
+                "priceId": "9200396832",
+                "priceName": "大规格双向传输 按小时套餐（专线）",
+                "feeType": "2",
+                "priceSeq": 2,
+                "status": "1"
+              }
+            ],
+            "attrs": [
+              {
+                "attrId": "2021010819005201",
+                "attrCode": "arch",
+                "attrVal": "bidirectional",
+                "attrSeq": 1,
+                "attrName": "同步拓扑",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005302",
+                "attrCode": "size",
+                "attrVal": "large",
+                "attrSeq": 1,
+                "attrName": "同步链路规格",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005303",
+                "attrCode": "rps",
+                "attrVal": ">5000",
+                "attrSeq": 1,
+                "attrName": "RPS",
+                "attrType": "2"
+              },
+              {
+                "attrId": "2021010819005304",
+                "attrCode": "network",
+                "attrVal": "intranet",
+                "attrSeq": 1,
+                "attrName": "网络类型",
+                "attrType": "2"
+              }
+            ]
+          }
+        ],
+        "status": "8",
+        "offerChas": {
+          "9200412001": "同步拓扑",
+          "9200412002": "同步链路规格",
+          "9200412003": "资源池"
+        }
+      }
+    ]
+  },
+  "respDesc": "OK",
+  "respCode": "0"
+}

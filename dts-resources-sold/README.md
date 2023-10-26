@@ -1,0 +1,1 @@
+DTS进销存系统发送数据到kafka入口在com.chinamobile.cmss.dts.dtsresourcessold.service.capacity.CapactiyServiceImpl中的sendDataToKafka();
